@@ -20,23 +20,23 @@ Deliverables:
 * Create a command-line script to import the data from the csv provided in the folder bb_test/lib/data/ (check the parsing rules)
 
 * Build the following endpoints:
-  CRUD services
-  Read companies
+  - CRUD services
+  - Read companies
   
 * If a user makes a request to your API endpoint, they must pass in the header 'API-Token' with the value 'secret123'.
 
-* Make sure to add tests for all of different scenarios
+* Add tests for both happy and sad path outcomes
 
 * Be prepared to talk through your approach and any significant design decisions that you made whilst completing this challenge.
 
-* If needed please provide information on all the steps needed to run the project.
+* Please provide all the steps needed to run the project.
 
 Parsing Rules:
 
-* If the csv contains duplicates, we don't want them in the db.
+* If the csv contains duplicates, we don't want them imported.
 
 * Please deploy this application someone where we are able to test these endpoints.
 
-Remember to take your time and correctly encapsulate your code, and make it as DRY as possible for potential future use.
+Remember to take your time, encapsulate your code, make it as DRY as possible and follow Ruby and Rails best practices.
 
-PLEASE DO NOT PUBLISH YOUR SOLUTION ON GITHUB.
+PLEASE DO NOT MAKE YOUR SOLUTION PUBLIC ON GITHUB OR ANY OTHER CODE REPO.
