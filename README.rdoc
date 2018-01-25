@@ -5,8 +5,8 @@ Tasks to complete
 Amend and complete our restful API
 
 A Company:
-  - can have multiple regions: US, EU and each region multiple branches, i.e. London, Berlin. Define a hierarchy to represent this logic.
-  - has many Services. If there are more branches, they will all share the same services
+  - can have multiple regions (e.g. US, EU), and each region can have multiple branches (e.g. London, Berlin). Define a hierarchy to represent this logic.
+  - has many Services. If there are multiple branches, they will all share the same services
   - can be disabled
 
 A Service:
@@ -20,8 +20,8 @@ Deliverables:
 * Create a command-line script to import the data from the csv provided in the folder bb_test/lib/data/ (check the parsing rules)
 
 * Build the following endpoints:
-  - CRUD services
-  - Read companies
+  - Full CRUD for services
+  - Just Read for companies
   
 * If a user makes a request to your API endpoint, they must pass in the header 'API-Token' with the value 'secret123'.
 
@@ -35,7 +35,7 @@ Parsing Rules:
 
 * If the csv contains duplicates, we don't want them imported.
 
-* Please deploy this application someone where we are able to test these endpoints.
+* Please deploy this application somewhere that we can test these endpoints.
 
 Remember to take your time, encapsulate your code, make it as DRY as possible and follow Ruby and Rails best practices.
 
