@@ -8,7 +8,7 @@ A booking should comprise of 1, 2 or all 3 of these things but is limited to 1 o
 
 Person(a living breathing human , i.e. Joe Bloggs)
 Resource(a piece of equipment, or a room, i.e. Room 34)
-Service(The non physical part of the booking, i.e. A yoga class)
+Service(The non physical part of the booking, i.e. Mortage advice, Yoga Class)
 
 A person has:
 - a name
