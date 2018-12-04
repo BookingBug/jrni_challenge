@@ -1,41 +1,71 @@
 == README
 
-Tasks to complete
+New dev test.
 
-Amend and complete our restful API
+We would like you to build a simple booking system.
 
-A Company:
-  - can have multiple regions (e.g. US, EU), and each region can have multiple branches (e.g. London, Berlin). Define a hierarchy to represent this logic.
-  - has many Services. If there are multiple branches, they will all share the same services
-  - can be disabled
+A booking should comprise of 1, 2 or all 3 of these things but is limited to 1 of each:
 
-A Service:
-  - has a duration
-  - has a price
-  - can be disabled
-  - if the company is disabled, all services are disabled.
+Person(a living breathing human , i.e. Joe Bloggs)
+Resource(a piece of equipment, or a room, i.e. Room 34)
+Service(The non physical part of the booking, i.e. A yoga class)
 
-Deliverables:
+A person has:
+- a name
+- a description
+- an email address
+- many companies
+- can be disabled
 
-* Create a command-line script to import the data from the csv provided in the folder bb_test/lib/data/ (check the parsing rules)
+A service has:
+- a name
+- a description
+- a price
+- many companies
+- can be disabled
 
-* Build the following endpoints:
-  - Full CRUD for services
-  - Just Read for companies
-  
-* If a user makes a request to your API endpoint, they must pass in the header 'API-Token' with the value 'secret123'.
+A resource has:
+- a name
+- a description
+- many companies
+- can be disabled
 
-* Add tests for both happy and sad path outcomes
+A company should have:
+- a name
+- a contact email
+- many services
+- many people
+- many resources
+- can be disabled
+
+If something is disabled, it means it cannot have bookings made against it.
+
+
+A booking should have:
+- a date
+- a time
+- name of the booker
+- a company
+
+Has 1 of:
+- a service
+- a resource
+- a person
+
+
+Your task:
+
+To clone this repository and finish the API that has been started.
+
+* Finish off the API by building the following endpoints:
+  - Full CRUD for people, services, resources and bookings
+  - Read and Update for Companies.
+
+* Add tests for both happy and sad path outcomes, use Rspec.
 
 * Be prepared to talk through your approach and any significant design decisions that you made whilst completing this challenge.
 
 * Please provide all the steps needed to run the project.
-
-Parsing Rules:
-
-* If the csv contains duplicates, we don't want them imported.
-
-* Please deploy this application somewhere that we can test these endpoints.
 
 Remember to take your time, encapsulate your code, make it as DRY as possible and follow Ruby and Rails best practices.
 
