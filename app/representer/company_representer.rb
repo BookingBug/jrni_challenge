@@ -7,4 +7,6 @@ class CompanyRepresenter < Representable::Decorator
   property :email
   property :description
   property :disabled
+  property :created_at
+  property :updated_at
 end
