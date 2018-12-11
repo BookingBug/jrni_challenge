@@ -1,7 +1,5 @@
 == README
 
-New dev test.
-
 We would like you to build a simple booking system.
 
 A booking should comprise of 1, 2 or all 3 of these things but is limited to 1 of each:
