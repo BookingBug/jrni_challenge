@@ -14,8 +14,7 @@ class CompanyAPI < Grape::API
     end
 
     get ':id' do
-      debugger
-     CompanyRepresenter.new(Company.find(params[:id]))
+      CompanyRepresenter.new(Company.find(params[:id]))
     end
   end
 end
