@@ -1,12 +1,12 @@
 == README
 
-We would like you to build a simple booking system.
+We would like you to build a simple appointment system.
 
-A booking should comprise of 1, 2 or all 3 of these things but is limited to 1 of each:
+A appointment should comprise of 1, 2 or all 3 of these things but is limited to 1 of each:
 
 Person(a living breathing human , i.e. Joe Bloggs)
 Resource(a piece of equipment, or a room, i.e. Room 34)
-Service(The non physical part of the booking, i.e. Mortage advice, Yoga Class)
+Service(The non physical part of the appointment, i.e. Mortage advice, Yoga Class)
 
 A person has:
 - a name
@@ -36,10 +36,10 @@ A company should have:
 - many resources
 - can be disabled
 
-If something is disabled, it means it cannot have bookings made against it.
+If something is disabled, it means it cannot have appointments made against it.
 
 
-A booking should have:
+An appointment should have:
 - a date
 - a time
 - name of the booker
@@ -56,7 +56,7 @@ Your task:
 To clone this repository and finish the API that has been started.
 
 * Finish off the API by building the following endpoints:
-  - Full CRUD for people, services, resources and bookings
+  - Full CRUD for people, services, resources and appointments
   - Read and Update for Companies.
 
 * Add tests for both happy and sad path outcomes, use Rspec.
